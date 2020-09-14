@@ -1,0 +1,7 @@
+N = input()
+
+A = str(input()).split(" ")
+A.reverse()
+
+for N in A :
+    print(N + " ",end="")
